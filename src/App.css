@@ -1,12 +1,19 @@
 .App {
   text-align: center;
+  background-image: url('./picture/pizza.jpg');
+  background-size: cover;
+  min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittle{
+  padding-top: 20vh;
 }
+.App a{
+  text-decoration: none;
+  font-size:3rem;
+  color:rgb(247, 167, 18);
+  font-weight: 650;
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
