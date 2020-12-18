@@ -1,0 +1,30 @@
+
+.divForm{
+    width: 34vw;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    padding:3vh 2vw;
+    border: solid 2px rgb(247, 167, 18);
+    background-color:rgba(53, 52, 52, 0.541);
+    border-radius: 15px;
+    font-size:1.1rem;
+}
+.errorDiv{
+    color:red;  
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(247, 167, 18);
+    margin: 0.5vh 0;
+}
+button{
+    width: 10vw;
+    margin:auto;
+}
+select{
+    width: 10vw;  
+}
